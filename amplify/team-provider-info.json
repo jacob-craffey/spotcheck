@@ -1,0 +1,15 @@
+{
+    "spotcheck": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-spotcheck-spotcheck-133459-authRole",
+            "UnauthRoleArn": "arn:aws:iam::751673217288:role/amplify-spotcheck-spotcheck-133459-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::751673217288:role/amplify-spotcheck-spotcheck-133459-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-spotcheck-spotcheck-133459-deployment",
+            "UnauthRoleName": "amplify-spotcheck-spotcheck-133459-unauthRole",
+            "StackName": "amplify-spotcheck-spotcheck-133459",
+            "StackId": "arn:aws:cloudformation:us-east-1:751673217288:stack/amplify-spotcheck-spotcheck-133459/17aad5c0-871b-11ea-8428-0a392ab5a299",
+            "AmplifyAppId": "d1jdzqvcqpx5bv"
+        }
+    }
+}

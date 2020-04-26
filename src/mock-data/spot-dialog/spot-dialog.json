@@ -1,0 +1,11 @@
+{
+    "name": "Love Gap",
+    "images": [
+        "./assets/love-gap.jpg",
+        "./assets/love-gap(1).jpg"
+    ],
+    "coordinates": {
+        "latitude": 39.9543,
+        "longitude": -75.1657
+    }
+}
