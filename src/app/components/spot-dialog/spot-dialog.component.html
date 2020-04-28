@@ -1,10 +1,15 @@
-<h1 mat-dialog-title>{{data.name}}</h1>
+<div class="dialog-container">
+    <h1 mat-dialog-title>{{data.name}}</h1>
 
-<div class="gallery" fxLayout="row" fxLayoutAlign="space-between">
-    <div class="image-container">
-        <img src="{{data.images[0]}}">
+    <div class="gallery" fxLayout="row" fxLayoutAlign="space-between">
+        <div class="image-container">
+            <img src="{{data.images[0]}}">
+        </div>
+        <div class="image-container">
+            <img src="{{data.images[1]}}">
+        </div>
     </div>
-    <div class="image-container">
-        <img src="{{data.images[1]}}">
-    </div>
+
+    <h2>Comments</h2>
+    <p>{{data.comments[0]}}</p>
 </div>

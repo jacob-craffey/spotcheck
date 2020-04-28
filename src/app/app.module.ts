@@ -8,12 +8,19 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SpotDialogComponent } from './components/spot-dialog/spot-dialog.component';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatSelectModule } from '@angular/material/select';
+
 import apiKey from '../environments/api-keys.json';
+import { MapComponent } from './components/map/map.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    SpotDialogComponent
+    SpotDialogComponent,
+    MapComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +30,8 @@ import apiKey from '../environments/api-keys.json';
     }),
     FlexLayoutModule,
     BrowserAnimationsModule,
-    MatDialogModule
+    MatDialogModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

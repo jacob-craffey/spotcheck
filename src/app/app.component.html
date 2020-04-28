@@ -1,7 +1,4 @@
-<h1>spotcheck</h1>
-
-
-<agm-map [styles]="mapStyles" fxLayout="row" fxLayoutAlign="center center" [latitude]="lat" [zoom]="zoom" [longitude]="lng">
-  <agm-marker [latitude]="lat" [longitude]="lng" (markerClick)="selectMarker($event)" [animation]="animation">
-  </agm-marker>
-</agm-map>
+<div id="content-wrapper">
+  <app-navbar fxLayout="row"></app-navbar>
+  <app-map fxLayout="center"></app-map>  
+</div>

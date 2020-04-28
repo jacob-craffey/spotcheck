@@ -21,5 +21,6 @@ export class SpotDialogComponent {
 export interface DialogData {
   name: string;
   images: string[];
+  comments: string[];
 }
 

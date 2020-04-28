@@ -1,0 +1,11 @@
+<mat-form-field>
+    <mat-label>Map type</mat-label>
+    <mat-select [(value)]="selectedMapType">
+        <mat-option *ngFor="let mapType of mapTypes" [value]="mapType.value">{{mapType.viewValue}}</mat-option>
+    </mat-select>
+</mat-form-field>
+<agm-map [mapTypeId]="selectedMapType" [styles]="mapStyles" fxLayout="row" fxLayoutAlign="center center" [latitude]="lat"
+    [zoom]="zoom" [longitude]="lng">
+    <agm-marker [latitude]="lat" [longitude]="lng" (markerClick)="selectMarker($event)" [animation]="animation">
+    </agm-marker>
+</agm-map>

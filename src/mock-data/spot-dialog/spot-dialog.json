@@ -7,5 +7,8 @@
     "coordinates": {
         "latitude": 39.9543,
         "longitude": -75.1657
-    }
+    },
+    "comments": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    ]
 }
