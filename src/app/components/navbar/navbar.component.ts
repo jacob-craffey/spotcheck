@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
+  toolTipMessage = 'Login or create an account to contribute to the community!';
   constructor() { }
 
   ngOnInit(): void {
